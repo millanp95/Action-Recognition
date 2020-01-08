@@ -6,25 +6,23 @@ Python implementation for extraction of Hand-Crafted features for action recogni
 
 1. Extracting Trayectories
 
-Run the following command: ```python iDT.py <path to video>  <Optical Flow Technique (DIS, Deep)>```
+	Run the following command: ```python iDT.py <path to video>  <Optical Flow Technique (DIS, Deep)>```
 	
-Example: 
-```python iDT.py Videos/new_video.mp4 DIS```
+	Example: ```python iDT.py Videos/new_video.mp4 DIS```
 
 2. Extracting HoG and Hof Features.
 
-Run the following command:```python ExtracFeatures.py <path to video>  <Optical Flow Technique (DIS, Deep)>```
+	Run the following command:```python ExtracFeatures.py <path to video>  <Optical Flow Technique (DIS, Deep)>```
 	
-Example: 
-```python extractFeatures.py Videos/new_video.mp4 DIS```
+	Example: ```python extractFeatures.py Videos/new_video.mp4 DIS```
  
 3. Video classification.
 
-For PUJ database: 
-Run the following command: ```python ExtracFeatures.py <N> <MachineNumber>  <path to video>  <Optical Flow Technique (DIS, Deep)>```
+	For PUJ database: 
+		Run the following command: ```python ExtracFeatures.py <N> <MachineNumber>  <path to video>  <Optical Flow Technique (DIS, Deep)>```
 
-For UCF-101 database: 
-Run the following command: ```python ExtracFeatures.py <MachineNumber_N> <MachineNumber>  <path to video>  <Optical Flow Technique (DIS, Deep)>```
+	For UCF-101 database: 
+		Run the following command: ```python ExtracFeatures.py <MachineNumber_N> <MachineNumber>  <path to video>  <Optical Flow Technique (DIS, Deep)>```
 
 ```
 ** Machine Numbers:
