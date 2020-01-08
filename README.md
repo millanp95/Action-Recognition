@@ -1,7 +1,7 @@
 # Action-Recognition
 Python implementation for the extraction of Hand-Crafted features to perform action recognition in videos. The models are trained on the UCF-101 database and on a small database called PUJ created specifically for the project. This new database consist on 3 similar classes: Handshake, dropping an object and picking an object from the ground, also one of the objectives was giving the model the ability to tell if none of the actions were happening. This study was created to test the performance of Deep Learning architectures on small databases such as the ones we would get in a surveillance context. 
 
-See ```demo0.mp4 ``` for a demo of the model over the UCF-101 database and ```demo1.mp4 ``` for a demo of the model over the PUJ database. 
+See ```demo2.mp4 ``` for a demo of the model over the UCF-101 database and ```demo1.mp4 ``` for a demo of the model over the PUJ database. 
 
 ## User Guide. 
 
@@ -58,3 +58,7 @@ Example:
 
 	5.2 Particular Testing Partition.
 		Run the following command: ```python MachineTest.py <number of gaussians> <MachineNumber>```
+		
+		
+## Results. 
+To see the results and to cite this study, please refer to the publication https://ieeexplore.ieee.org/document/8527471
