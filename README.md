@@ -41,9 +41,13 @@ Example:
 4. Training with a new Database.
 
 	4.1. Place all your labeled videos in the "Labeled" folder, with the format: class_numer.mp4.
+	
 	4.2. Make your partition of the data in the files:
+	
 		Train.txt ---> Train files 
 		Test.txt  ---> test Files 
+	
+		
 	4.3. Run the following command: ```python Train.py <number of gaussians>```
 
 5. Testing New Data Set. 
