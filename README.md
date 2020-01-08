@@ -1,5 +1,5 @@
 # Action-Recognition
-Python implementation for extraction of Hand-Crafted features for action recognition in videos
+Python implementation for the extraction of Hand-Crafted features to perform action recognition in videos. The models are trained on the UCF-101 database and on a small database called PUJ created specifically for the project. This new database consist on 3 similar classes: Handshake, dropping an object and picking an object from the ground, also one of the objectives was giving the model the ability to tell if none of the actions were happening. This study was created to test the performance of Deep Learning architectures on small databases such as the ones we would get in a surveillance context. 
 
 
 ## User Guide. 
